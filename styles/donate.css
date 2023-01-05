@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+.btn-primary{
+    background: #FF5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+    gap: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* Header style*/
+header{
+    
+    background-image: url(../images/donation5.jpg);
+    background-repeat: no-repeat;
+    margin: 0 100px;
+}
+
+.header-title{
+    text-align: center;
+    padding-top: 175px;
+    padding: 174px 307px 250px 307px;
+}
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.sub-title{
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+/* main donate section style*/
+.donate-today{
+    margin: 0 100px;
+    text-align: center;
+}
+.donate-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.donate-description{
+    text-align: center;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 180px 50px 180px;
+}
+.btn{
+    padding: 45px 25px;
+    background-color: aqua;
+    border-radius: 5px;
+    border: none;
+    color: #707070;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.amount{
+    text-align: center;
+    color: #B3B3B3;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+hr{
+    margin: 0 250px;
+    margin-bottom: 30px;
+}
+/* our donate plan style*/
+.our-donate{
+    margin: 0 100px;
+    text-align: center;
+}
+.our-donate-title{
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-top: 120px;
+}
+.our-donate-description{
+    text-align: center;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 180px 50px 180px;
+}
+/*plan card style*/
+.plan-container{
+    display: flex;
+    gap: 24px;
+}
+.plan-one{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+.plan-two{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+.plan-third{
+    background: #FFF4D6;
+    border-radius: 5px;
+    padding: 20px;
+}
+.plan-title{
+    font-style: normal;
+    font-weight: 600;
+    color: #121212;
+}
+.plan-description{
+    color: #707070;
+    font-weight: 400;
+    font-size: 16px;
+}
