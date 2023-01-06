@@ -6,7 +6,7 @@
 .btn-primary{
     background: #FF5959;
     border-radius: 5px;
-    padding: 16px 12px;
+    padding: 14px 12px;
     gap: 8px;
     border: none;
     color: #FFFFFF;
@@ -18,12 +18,11 @@ header{
     
     background-image: url(../images/donation5.jpg);
     background-repeat: no-repeat;
-    margin: 0 100px;
+    background-size: cover;
 }
 
 .header-title{
     text-align: center;
-    padding-top: 175px;
     padding: 174px 307px 250px 307px;
 }
 .title{
@@ -41,7 +40,7 @@ header{
 }
 /* main donate section style*/
 .donate-today{
-    margin: 0 100px;
+    
     text-align: center;
 }
 .donate-title{
@@ -81,7 +80,7 @@ hr{
 }
 /* our donate plan style*/
 .our-donate{
-    margin: 0 100px;
+    margin: 0 200px;
     text-align: center;
 }
 .our-donate-title{
@@ -127,3 +126,87 @@ hr{
     font-weight: 400;
     font-size: 16px;
 }
+/*About style*/
+.about{
+    display: flex;
+    margin: 0 200px;
+    gap: 83px;
+    margin-top: 130px ;
+}
+.img-about{
+    width: 400px;
+    height: 420px;
+    
+}
+.about-title{
+    font-weight: 700;
+font-size: 45px;
+color: #121212;
+
+}
+.about-description{
+    font-weight: 400;
+font-size: 18px;
+color: #707070;
+padding: 20px 0;
+}
+.about-sub-description{
+    font-weight: 400;
+font-size: 18px;
+color: #707070;
+padding-bottom: 20px;
+}
+/*update style*/
+.update{
+    margin: 100px 100px 20px 100px;
+    text-align: center;
+    padding: 0 100px;
+}
+.button-email{
+    width: 809px;
+    height: 200px;
+    background: #FFF4D6;
+}
+.button-email{
+    display: flex;
+    text-align: center;
+}
+.anotherbox{
+    margin: 0px auto;
+    width: 80%;
+    height: 270px;
+    background-color: #FFF4D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.em{
+    padding: 14px 15px;
+    height: 22px;
+    width: 200px;
+    z-index: 1;
+    border: 0;
+    background-color: #FFFFFF;
+}
+/* Footer start */
+.footer{
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bh{
+    font-family: 'Dancing Script', cursive;
+    color: tomato;
+    font-weight: bold;
+    font-size: 35px;
+}
+.ig{
+    margin-top: 30px;
+    color: white;
+}
+/* Footer End */
